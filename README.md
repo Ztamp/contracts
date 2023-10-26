@@ -13,6 +13,8 @@ Use the source code `ERC721Certified.sol` and watch this video [tutorial](https:
 ## How to update a digital certificate on a smart contract
 You need to include the `updateCert` function as shown below to allow you to update your certificate in the future. 
 
-```function updateCert(string memory cert) public onlyOwner {
+```
+function updateCert(string memory cert) public onlyOwner {
    certificate = cert;
-}```
+}
+```
