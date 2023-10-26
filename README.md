@@ -5,7 +5,7 @@ The smart contracts included here are based on OpenZeppelin standards. We includ
 There are generally two methods to include a certificate.
 
 1. Compile your contract and include the certificate ASCII code before deployment on chain.
-Use the source code `ERC721DigiCert.sol` and follow this [tutorial](https://ztamp.io/install-digital-certificate-on-smart-contract) 
+Use the source code `ERC721DigiCert.sol` and follow this [tutorial](https://ztamp.io/install-digital-certificate-on-smart-contract). 
 
 2. Hardcode the certificate ASCII code in the constructor of your contract, then compile and deploy on chain. 
 Use the source code `ERC721Certified.sol` and watch this video [tutorial](https://www.youtube.com/watch?v=rswZenr2_TM).
